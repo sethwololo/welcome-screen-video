@@ -8,6 +8,7 @@ target 'videoBackground' do
 
   use_react_native!(:path => config["reactNativePath"])
 
+
   target 'videoBackgroundTests' do
     inherit! :complete
     # Pods for testing
