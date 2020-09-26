@@ -20,13 +20,13 @@ export const BackgroundVideo = styled(Video)`
 
 export const Content = styled.View`
   align-items: center;
-  padding: 0 30px ${Platform.OS === 'android' ? 150 : 40}px;
+  padding: 0 30px ${Platform.OS === 'android' ? 160 : 40}px;
   width: 100%;
   height: 100%;
 `;
 
 export const AppLogo = styled.Image`
-  margin-top: 32px;
+  margin-top: ${Platform.OS === 'android' ? 50 : 32}px
 `;
 
 export const DescriptionText = styled.Text`
@@ -83,4 +83,5 @@ export const GuestContinueText = styled.Text`
   font-size: 16px;
   text-decoration: underline;
   text-decoration-color: #f9f9fb;
+  margin: 0 0 ${Platform.OS === 'android' ? 40 : 0}px;
 `;
