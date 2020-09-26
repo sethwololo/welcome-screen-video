@@ -7,7 +7,7 @@
 # Como integrar a um projeto já existente
 
 - Copie a página **WelcomeScreen** para o projeto
-- Crie uma pasta **@types** com um arquivo *index.d.ts* com o seguinte conteúdo:
+- Crie uma pasta **@types** na pasta **src** com um arquivo de declaração de tipos *index.d.ts* com o seguinte conteúdo:
 ```typescript
 declare module '*.mp4'
 declare module '*.png'
